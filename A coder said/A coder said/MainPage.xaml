@@ -19,7 +19,7 @@
         <Grid Margin="25" RowDefinitions=".8*,.2*">
             <Label 
                    x:Name="lblQuote"
-                   FontSize="25"
+                   FontSize="30"
                    HorizontalTextAlignment="Center"
                    FontFamily="Bison.ttf"
                    Text="They don´t make bugs like Bunny anymore. -Olav Mjelde"
@@ -29,6 +29,9 @@
                 x:Name="btnGenerate"
                 Grid.Row="1"
                 Background="Black"
+                FontFamily="myFont"
+                TextColor="White"
+                FontSize="25"
                 Opacity=".4"
                 Clicked="btnGenerate_Clicked"
                 Text="A coder said"/>
