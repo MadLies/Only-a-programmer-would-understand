@@ -17,9 +17,11 @@
             </LinearGradientBrush>
         </Grid.Background>
         <Grid Margin="25" RowDefinitions=".8*,.2*">
-            <Label FontSize="35"
+            <Label 
+                   x:Name="lblQuote"
+                   FontSize="25"
                    HorizontalTextAlignment="Center"
-                   FontFamily="myFont"
+                   FontFamily="Bison.ttf"
                    Text="They don´t make bugs like Bunny anymore. -Olav Mjelde"
                    TextColor="White"
                    VerticalOptions="Center"/>

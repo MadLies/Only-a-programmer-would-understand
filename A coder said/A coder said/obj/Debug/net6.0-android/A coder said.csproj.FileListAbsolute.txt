@@ -956,3 +956,4 @@ C:\Git Proyects\Only-a-programmer-would-understand\A coder said\A coder said\obj
 C:\Git Proyects\Only-a-programmer-would-understand\A coder said\A coder said\obj\Debug\net6.0-android\stamp\_ResolveLibraryProjectImports.stamp
 C:\Git Proyects\Only-a-programmer-would-understand\A coder said\A coder said\obj\Debug\net6.0-android\resizetizer\f\Low Budget.ttf
 C:\Git Proyects\Only-a-programmer-would-understand\A coder said\A coder said\obj\Debug\net6.0-android\android\assets\ColorUtility.dll
+C:\Git Proyects\Only-a-programmer-would-understand\A coder said\A coder said\obj\Debug\net6.0-android\resizetizer\f\Bison.ttf

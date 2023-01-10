@@ -49,7 +49,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Fonts\Bison.ttf" />
 	  <None Remove="Resources\Fonts\Low Budget.ttf" />
+	  <None Remove="Resources\Raw\quotes.txt" />
 	</ItemGroup>
 
 	<ItemGroup>
