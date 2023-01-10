@@ -3,14 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="A_coder_said.MainPage">
 
-    <Grid BackgroundColor="Navy">
+    <Grid x:Name="background">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0,1"
                                  >
                 <GradientStopCollection>
-                    <GradientStop Offset="0" Color="DarkBlue"/>
-                    <GradientStop Offset="0.5" Color="Red"/>
-                    <GradientStop Offset="1" Color="LightSkyBlue"/>
+                    <GradientStop Offset="0" Color="#051937"/>
+                    <GradientStop Offset="0.25" Color="#004d7a"/>
+                    <GradientStop Offset="0.50" Color="#008793"/>
+                    <GradientStop Offset="0.75" Color="#00bf72"/>
+                    <GradientStop Offset="1" Color="#a8eb12"/>
                 </GradientStopCollection> 
             </LinearGradientBrush>
         </Grid.Background>
@@ -22,9 +24,11 @@
                    TextColor="White"
                    VerticalOptions="Center"/>
             <Button 
+                x:Name="btnGenerate"
                 Grid.Row="1"
                 Background="Black"
                 Opacity=".4"
+                Clicked="btnGenerate_Clicked"
                 Text="A coder said"/>
 
         </Grid>
